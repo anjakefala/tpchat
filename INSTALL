@@ -15,12 +15,15 @@
         $ git clone git://github.com/saulpw/tpchat.git
 
 2a. Configure `/etc/ircd/ircd.conf`
-
+        
+        M:saul.pw:host-ip:AWS:6669:
         A:saul.pw:Saul Pwanson <chat@saul.pw>:::chatsaulpw:
         C:127.0.0.1:passwd:irc.chat.saul.pw:6669:127.0.0.1:
         N:127.0.0.1:passwd:irc.chat.saul.pw::1:
         P:127.0.0.1:::6669::
         I:*@127.0.0.1::::1::
+
+Note: the field separators may be '%' instead of ':' 
 
 2b. Restart ircd
 
